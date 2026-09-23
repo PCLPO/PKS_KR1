@@ -3,12 +3,10 @@
  */
 package org.example;
 
-public class App {
-    public String getGreeting() {
-        return "Hello World!";
-    }
+import org.example.ui.ConsoleUI;
 
+public class App {
     public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
+        new ConsoleUI().start();
     }
 }
